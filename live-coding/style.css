@@ -1,0 +1,15 @@
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.gameboard-dice {
+  height: 192px;
+  width: 192px;
+  display: grid;
+  place-items: center;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
